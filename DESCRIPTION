@@ -1,0 +1,22 @@
+Package: ecostatmodule
+Type: Package
+Title: Dataset of Econometrics module for statistics students of MU
+Version: 0.1.0
+Authors@R: person("Tedros", "Gebregergs", email = "tedros.gebregergs@mu.edu.et",
+               role = c("aut", "cre"))
+Maintainer: The package maintainer <tedros.gebregergs@mu.edu.et>
+Description: Dataset of econometrics course for undergraduate statistics 
+    students of Mekelle University. To use these datasets, module of the
+    course can be download from www.github/hahustat/ecostatmodule.
+License: CC0
+Encoding: UTF-8
+LazyData: true
+URL: http://github.com/hahustat/ecostatmodule
+Depends: 
+    R (>= 4.0.4)
+Suggests: 
+    testthat (>= 2.0.0)
+RoxygenNote: 7.1.1
+Imports:
+    maptools,
+    rgdal
